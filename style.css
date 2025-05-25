@@ -1,0 +1,100 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fa; /* Fixed rgba#f7f9fa */
+  color: #222; /* Fixed rgb222 */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+   max-width: 700px;
+  margin: 36px auto;
+  text-align: center;
+  background-color: #fff; /* Removed extra 'b' */
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06); /* Fixed rgba and added shadow */
+  padding: 36px 28px;
+}
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 16px;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  color: #e53935;
+  letter-spacing: 1.5px;
+}
+
+header p {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+nav ul li a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.25s; /* Added time unit 's' */
+}
+
+nav ul li a:hover {
+  color: #e53935;
+}
+
+main {
+  max-width: 700px;
+  margin: 36px auto;
+  background-color: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06); /* Fixed rgba and added shadow */
+  padding: 36px 28px;
+}
+
+section {
+  margin-bottom: 2.5em;
+}
+
+h2 {
+  color: #e53935;
+  margin-bottom: 0.5em;
+  font-size: 1.5rem;
+}
+
+ul {
+  padding-left: 1.2em;
+}
+
+ul li {
+  margin-bottom: 0.5em;
+}
+
+footer {
+  text-align: center;
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 16px 28px; /* Fixed "16px o" */
+  background: #cbbfad;
+  color: rgb(135, 108, 49);
+  font-size: 1rem;
+  margin-top: 32px;
+  border-radius: 14px;
+}
+
+p {
+  color: rgb(18, 13, 1);
+}
